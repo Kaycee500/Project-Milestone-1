@@ -98,3 +98,41 @@ section h2 {
         font-size: 1.2em;
     }
 }
+/* About Page Styles */
+.about {
+    margin: 50px;
+    text-align: center;
+}
+
+.about h1 {
+    font-size: 2.5em;
+    color: #000; /* Black color */
+}
+
+.about-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/* Profile Photo Styling */
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Makes the photo circular */
+    margin-right: 30px;
+}
+
+/* Biography Text */
+.bio {
+    max-width: 600px;
+    text-align: left;
+}
+
+.bio p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+}
