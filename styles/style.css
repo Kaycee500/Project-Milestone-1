@@ -37,7 +37,7 @@ nav ul li a:hover {
     top: 20px;
     left: 20px;
     font-size: 1.5em; /* Adjusted the size to medium */
-    color: #ffcc00; /* Gold color */
+    color:  #000; 
 }
 
 /* Main Content Section */
