@@ -31,20 +31,27 @@ nav ul li a:hover {
     color: #fff;
 }
 
-/* Header Styles */
-header {
-    background-color: #000;
+/* Top Left Section for Welcome Message */
+.top-left {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 1.5em; /* Adjusted the size to medium */
     color: #ffcc00; /* Gold color */
-    padding: 50px;
+}
+
+/* Main Content Section */
+.main-section {
     text-align: center;
+    margin-top: 150px; 
 }
 
-header h1 {
-    margin-bottom: 20px;
+.main-section h1 {
     font-size: 3em;
+    color: #000; 
 }
 
-header p {
+.main-section p {
     font-size: 1.5em;
 }
 
@@ -90,7 +97,11 @@ section h2 {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    header h1 {
+    .top-left {
+        font-size: 1.2em;
+    }
+
+    .main-section h1 {
         font-size: 2em;
     }
 
@@ -98,6 +109,7 @@ section h2 {
         font-size: 1.2em;
     }
 }
+
 /* About Page Styles */
 .about {
     margin: 50px;
